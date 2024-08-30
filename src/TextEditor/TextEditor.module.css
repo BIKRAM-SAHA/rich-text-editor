@@ -1,0 +1,30 @@
+.texteditor {
+  max-height: 500px;
+  height: 90%;
+  max-width: 900px;
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.toolbar {
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+  display: flex;
+  gap: 2px;
+  border: 1px solid black;
+}
+.icon {
+  cursor: pointer;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid black;
+  }
+}
+.textarea {
+  flex-grow: 1;
+  padding: 0.3rem 0.8rem;
+  overflow-y: scroll;
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
